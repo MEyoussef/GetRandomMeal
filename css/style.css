@@ -15,4 +15,21 @@ div.container {
 div.container2 {
   display: flex;
   gap: 15px;
+  padding: 0 5vh;
+}
+
+div.container2 img {
+  width: 40vh;
+  height: 40vh;
+  background-color: white;
+}
+
+@media(max-width: 767px) {
+  div.container2 {
+    flex-direction: column;
+    padding: 0 1vh;
+  }
+  div.container2 img {
+    width: 100%;
+  }
 }
