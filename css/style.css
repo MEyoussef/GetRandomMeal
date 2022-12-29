@@ -5,9 +5,14 @@
 }
 
 div.container {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+div.container2 {
+  display: flex;
+  gap: 15px;
 }
